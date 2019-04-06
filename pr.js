@@ -1,15 +1,18 @@
-sheet = {
- "1" = 123;
+var sheet = {
+    1:123,
+    2:456,
+    3:756
+};
 
-}
-
-function pridict(key)
+function predict(key)
 {
-    value = sheet[key];
-    return value;
+    v = sheet[key];
+    return v;
 }
 
 function appe()
 {
-    
+    var key = document.getElementById("key").value;
+    document.getElementById("predict").innerHTML = predict(key)
 }
+
