@@ -652,7 +652,9 @@ a {
 }
 
 #predict{
-	color: #A7A7A7;
-	background: #F8F8F8;
+	display: block;
+	color: #303030;
+    font-size: 30px;
 	text-align: center;
 }
+
