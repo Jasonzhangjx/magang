@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>马钢物流</title>
+		<link rel="stylesheet" href="css/style.css">
+		<script type="text/javascript" src="js/jquery.min.js"></script>
+	</head>
+	<body>
+		<div class="top">
+			<div class="top-nav">
+				<div class="logo">
+					<img src="img/logo.png" alt="">
+				</div>
+				<div class="logo-text">
+					<ul>
+						<li>
+							<a href="###">公司概况</a>
+						</li>
+						<li>
+							<a href="###">企业文化</a>
+						</li>
+						<li>
+							<a href="###">联系我们</a>
+						</li>
+						<li>
+							<a href="login.html">内部登录</a>
+						</li>
+						<li>
+							<a href="###">在线咨询</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div class="nav-list">
+				<ul>
+					<li class="lik">
+						<a href="#">首页</a>
+					</li>
+					<li class="lik">
+						<a href="#">走进马钢</a>
+					</li>
+					<li class="lik">
+						<a href="#" class="zzcx1">自助查询</a>
+						<ul class="content1">
+							<li>运价查询</li>
+							<li>运单查询</li>
+							<li>公司库查询</li>
+						</ul>
+					</li>
+					<li class="lik">
+						<a href="#" class="zzcx2">物流产品</a>
+						<ul class="content2">
+							<li>供应信息</li>
+							<li>采购信息</li>
+							<li>发布求购信息</li>
+						</ul>
+					</li>
+					<li class="lik">
+						<a href="#" class="zzcx3">增值服务</a>
+						<ul class="content3">
+							<li>保管服务</li>
+							<li>加工服务</li>
+							<li>物流金融服务</li>
+						</ul>
+					</li>
+					<li class="lik">
+						<a href="#">最新动态</a>
+					</li>
+					<li class="lik">
+						<a href="#">帮助与支持</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<div class="homebanner">
+			<img src="img/homebanner.png" alt="">
+		</div>
+		<div class="homelist">
+			<img src="img/homelist.png" alt="">
+		</div>
+	</body>
+	<script type="text/javascript">
+		$(document).ready(function() {
+			$(".lik").hover(function() {
+				$(this).css('background', '#ECBE28').siblings().css('background', 'none');
+			});
+			$(".zzcx1").mouseover(function() {
+				$(".content1").show();
+			}).mouseout(function() {
+				$(".content1").hide();
+			});
+			$(".zzcx2").mouseover(function() {
+				$(".content2").show();
+			}).mouseout(function() {
+				$(".content2").hide();
+			});
+			$(".zzcx3").mouseover(function() {
+				$(".content3").show();
+			}).mouseout(function() {
+				$(".content3").hide();
+			});
+		});
+	</script>
+</html>
