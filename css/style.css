@@ -650,3 +650,9 @@ a {
 	top: 407px;
 	left: 663px;
 }
+
+#predict{
+	color: #A7A7A7;
+	background: #F8F8F8;
+	text-align: center;
+}
