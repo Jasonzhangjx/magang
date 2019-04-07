@@ -13,6 +13,6 @@ function predict(key)
 function appe()
 {
     var key = document.getElementById("key").value;
-    document.getElementById("predict").innerHTML = "预测结果为" + predict(key)
+    document.getElementById("predict").innerHTML = "预测结果为" + <font color="#33CC00"> predict(key) </font>
 }
 
